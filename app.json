@@ -1,0 +1,12 @@
+{
+  "name": "WordLadder",
+  "displayName": "WordLadder",
+  "expo": {
+    "name": "WordLadder",
+    "slug": "WordLadder",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
