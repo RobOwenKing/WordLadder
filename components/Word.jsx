@@ -15,8 +15,15 @@ const Word = ({word}) => {
   };
 
   return (
-    <View>{wordToLetters()}</View>
+    <View style={styles.word}>{wordToLetters()}</View>
   );
 };
+
+const styles = StyleSheet.create({
+  word: {
+    display: 'flex',
+    flexDirection: 'row'
+  },
+})
 
 export default Word;
