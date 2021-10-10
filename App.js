@@ -3,7 +3,8 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import MainMenu from './components/MainMenu';
-import Word from './components/Word';
+//import Word from './components/Word';
+import Level from './components/Level';
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
       <MainMenu />
-      <Word word="test" />
+      {/*<Word word="test" />*/}
+      <Level start="test" target="hope" />
     </View>
   );
 }
